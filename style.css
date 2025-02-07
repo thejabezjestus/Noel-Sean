@@ -1,0 +1,36 @@
+.navbar {
+    background: transparent !important;
+}
+.navbar .nav-link, .navbar-brand {
+    color: whitesmoke !important;
+}
+.navbar .nav-link:hover {
+    color: lightblue !important;
+}
+.navbar-nav .nav-item i {
+    font-size: 1.5rem;
+    margin-left: 10px;
+    color: whitesmoke !important;
+}
+.navbar-nav .nav-item i:hover {
+    color: lightblue !important;
+}
+.footer {
+    background: black;
+    color: whitesmoke;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer i {
+    font-size: 1.5rem;
+    margin: 0 10px;
+    color: whitesmoke;
+}
+.footer i:hover {
+    color: lightblue;
+}
+
+
+nav .navbar-nav{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
