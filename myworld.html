@@ -3,42 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> ::Noel Sean Official Website::</title>
+    <title>::Noel Sean Official Website::</title>
 
     <link rel="icon" type="image/x-icon" href="Adobe Express - file.png">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><script src="https://cdnjs.cloudflare.com/ajax/libs/SocialIcons/1.0.1/soc.min.js" integrity="sha512-eUJ3eP9+avp5kHKhfx5gB0vzLEgMkZiOmZcpVqJmlg9hMMse2SChMOTSDWl6oYGfmYW2N7oO/W6CqpgYBneqKw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <style>
+        .navbar .nav-link:hover {
+    color: lightblue !important;
+}
+     </style>
+
 </head>
-<body>
-    <!---Navbar-->
-    <nav class="navbar navbar-expand-lg fixed-top">
-        <a href="./index.html" class="navbar-brand font-weight-bold">NOEL SEAN</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+<body class="text-white">
+
+    <!-- Transparent Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background: transparent;">
+        <a href="./index.html" class="navbar-brand font-weight-bold text-white">NOEL SEAN</a>
+        <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon" style="filter: invert(100%);"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="./noelwho.html">Noel Who?</a></li>
-                <li class="nav-item"><a class="nav-link" href="./myworld.html">My World</a></li>
-                <li class="nav-item"><a class="nav-link" href="./getintouch.html">Get In Touch</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="./index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="./noelwho.html">Noel Who?</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="./myworld.html">My World</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="./getintouch.html">Get In Touch</a></li>
             </ul>
-            
         </div>
     </nav>
 
-    <footer class="footer py-3 mt-0 " >
-        
+    <!-- Fullscreen Background Image -->
+    <section class="vh-100 d-flex align-items-center justify-content-center text-center"
+        style="background: url('468144097_1103202097842093_8607830152378732305_n.jpg') no-repeat center center / cover;">
+    </section>
+
+    
+
+    <!-- Footer with Black Background -->
+    <footer class="bg-black text-white py-3 text-center" style="background-color: black;">
         <p>Follow Me</p>
-        <!-- Add font awesome icons -->
-         <div style="font-size: x-large;">
-<a href="https://www.facebook.com/noelseanofficial" class="fa fa-facebook" target="_blank"></a>
-<a href="https://www.twitter.com/mrnoelsean" class="fa fa-twitter" target="_blank"></a>
-<a href="https://www.instagram.com/mr.noelsean" class="fa fa-instagram" target="_blank"></a>
-<a href="https://www.youtube.com/@NoelSeanOfficial" class="fa fa-youtube" target="_blank"></a>
-</div>
+        <div class="d-flex justify-content-center">
+            <a href="https://www.facebook.com/noelseanofficial" class="fa fa-facebook mx-2" target="_blank"></a>
+            <a href="https://www.twitter.com/mrnoelsean" class="fa fa-twitter mx-2" target="_blank"></a>
+            <a href="https://www.instagram.com/mr.noelsean" class="fa fa-instagram mx-2" target="_blank"></a>
+            <a href="https://www.youtube.com/@NoelSeanOfficial" class="fa fa-youtube mx-2" target="_blank"></a>
+        </div>
     </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
